@@ -1,3 +1,28 @@
-venv
-.vscode
-__pycache__
+pip install -r requirements.txt
+```
+and get your exact setup.
+
+---
+
+### ✅ Step 4 — Create .gitignore (5 min)
+
+Create `.gitignore` in the root folder:
+```
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Database files
+*.db
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
